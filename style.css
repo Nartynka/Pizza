@@ -1,0 +1,136 @@
+.btn a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+.navbar-brand {
+	font-family: 'Playfair Display', serif;
+	font-size: 2rem;
+	/* line-height: 63px; */
+	color: #000000;
+}
+
+.navbar-brand img {
+	margin-bottom: 15px;
+}
+
+.navbar {
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.19);
+	border-radius: 73.5px;
+	max-width: 90%;
+	margin: 1.3rem auto;
+	padding: 0.1rem;
+	background: #ffffff;
+}
+
+.nav-link {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.3rem;
+	line-height: 2rem;
+	color: #000000;
+}
+.nav-link:hover,
+.navbar-brand:hover {
+	color: #666666;
+	filter: invert(41%) sepia(0%) saturate(92%) hue-rotate(212deg)
+		brightness(94%) contrast(86%);
+}
+
+h1,
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 5rem;
+	line-height: 8rem;
+	color: #000000;
+}
+
+h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600;
+	font-size: 4.5rem;
+	line-height: 84px;
+}
+
+.underline {
+	text-decoration: #c85c5c underline 5px;
+}
+
+.btn-container {
+	margin-top: 3rem;
+}
+
+.btn-filled {
+	background: #c85c5c;
+	border-radius: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.1rem;
+	border: none;
+	color: #fff;
+}
+
+.btn-filled:hover {
+	background: #ba3131;
+	color: #fff;
+}
+
+.btn-outline {
+	border: 3px solid #c85c5c;
+	color: #000;
+	border-radius: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+}
+
+.btn-outline:hover {
+	background: #ba3131;
+	border: 3px solid #ba3131;
+	color: #fff;
+}
+
+.form-control {
+	border: 4px solid #e5e5e5;
+	border-radius: 0;
+}
+
+label {
+	color: #8f8f8f;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.2rem;
+	margin-left: 10px;
+}
+
+.card {
+	width: 404px;
+	height: 482px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+	border: none !important;
+	margin: 0 auto;
+	z-index: 1 !important;
+}
+
+path {
+	stroke: #AE6969;
+}
+
+.form-btn:hover .heart path{
+	fill: #ffffff;
+	stroke:none;
+}
+
+.card-title{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 3rem;
+	line-height: 57px;
+}
+
+.card-text{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.3rem;
+	line-height: 28px;
+	color: rgba(0, 0, 0, 0.51);
+}
