@@ -16,6 +16,6 @@ The app is used for adding pizza to your favorite. You can add and view them aft
 
 *This app was a school project that i and two of my fiends were asigned (that's why the app is in Polish). We were supposed to build a website about choosen subject and use PHP and cookies*
 
-![Main page view](screenshot.png)
+![Main page view](Screenshot.png)
 
 
